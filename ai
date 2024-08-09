@@ -7,6 +7,7 @@ def calculate_service_time_and_cost(Jk, distances, current_location, pickup_loca
     J0_k = set()  # Set of undelivered orders (previous workload)
     Jk = Jk.union(J0_k)  # Total workload set (including current and previous workload)
 ##########
+fnvjzsdhjx
     # Extract locations of interest
     Lk = list(pickup_locations.values()) + list(delivery_locations.values())  # List of all locations
     Vl = {l: 0 for l in Lk}  # Initialize visit flags for each location l in Lk
